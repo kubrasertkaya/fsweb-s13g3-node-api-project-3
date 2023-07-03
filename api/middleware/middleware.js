@@ -1,6 +1,7 @@
 const userModel = require("../users/users-model");
 
 function logger(req, res, next) {
+  //b
   // SİHRİNİZİ GÖRELİM
   let reqMethod = req.method;
   let reqUrl = req.originalUrl;
